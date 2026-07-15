@@ -6,7 +6,7 @@ data = {
 }
 df = pd.DataFrame(data)
 print("24BDS-1 DA Marks:")
-print(df)
+print(df.to_string(index=False))
 print("-" * 30)
 mean_score = df['Test_Score'].mean()
 median_score = df['Test_Score'].median()
