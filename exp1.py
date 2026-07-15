@@ -4,7 +4,8 @@ data = {
 'Test_Score': [85, 90, 91, 65, 78, 85, 95]
 }
 df = pd.DataFrame(data)
-print("Sample Dataset:")
+df.index = range(1, len(df) + 1)
+print("24BDS-1 DA Marks:")
 print(df)
 print("-" * 30)
 mean_score = df['Test_Score'].mean()
