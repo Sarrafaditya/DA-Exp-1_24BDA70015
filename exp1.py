@@ -1,10 +1,10 @@
 import pandas as pd
 data = {
+'S.No': range(1, 8),
 'Student_ID': ['70084', '70005', '70006', '70007', '70008', '70009', '70010'],
 'Test_Score': [85, 90, 91, 65, 78, 85, 95]
 }
 df = pd.DataFrame(data)
-df.index = range(1, len(df) + 1)
 print("24BDS-1 DA Marks:")
 print(df)
 print("-" * 30)
